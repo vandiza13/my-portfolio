@@ -9,23 +9,22 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-gray-900 text-white">
       <div className="max-w-6xl mx-auto px-6">
-        
         <div className="flex flex-col md:flex-row items-center gap-12">
           
-          {/* BAGIAN KIRI: FOTO / ILUSTRASI */}
+          {/* BAGIAN KIRI: FOTO */}
           <div className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80">
-              {/* Efek Glow di belakang foto */}
               <div className="absolute inset-0 bg-blue-600 rounded-full blur-3xl opacity-30 animate-pulse"></div>
               
               {/* Bingkai Foto */}
               <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-gray-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
-                {/* GANTI src ini dengan foto aslimu nanti. Simpan foto di folder public/me.jpg */}
-                {/* Jika belum ada foto, pakai kotak gradient ini dulu: */}
-                <div className="w-full h-full bg-gradient-to-br from-gray-800 to-black flex items-center justify-center text-gray-500">
-                  <span className="text-6xl">👨‍💻</span>
-                </div>
-                {/* <Image src="/me.jpg" alt="Profile" layout="fill" objectFit="cover" /> */}
+                {/* 👇 BAGIAN INI YANG DIGANTI UNTUK MENAMPILKAN FOTO */}
+                <Image 
+                  src="/profile.jpg" // Next.js otomatis tahu ini ada di folder public
+                  alt="Foto Profil Vandiza" 
+                  fill 
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
