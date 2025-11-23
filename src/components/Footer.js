@@ -15,13 +15,13 @@ export default function Footer() {
 
         {/* Kanan: Sosial Media */}
         <div className="flex gap-6">
-          <a href="https://github.com/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/vandiza13/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
             GitHub
           </a>
-          <a href="https://linkedin.com/" target="_blank" className="text-gray-400 hover:text-blue-400 transition-colors">
+          <a href="https://www.linkedin.com/in/tubagusparadisa/" target="_blank" className="text-gray-400 hover:text-blue-400 transition-colors">
             LinkedIn
           </a>
-          <a href="mailto:emailmu@contoh.com" className="text-gray-400 hover:text-red-400 transition-colors">
+          <a href="tb.vandiza13@gmail.com" className="text-gray-400 hover:text-red-400 transition-colors">
             Email
           </a>
         </div>
