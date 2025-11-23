@@ -15,7 +15,7 @@ const projectData = [
   },
   {
     title: "BizFlow - Smart POS & Business Management System",
-    description: "Sebuah aplikasi Point of Sale (Kasir) dan manajemen bisnis berbasis web yang dirancang untuk mendigitalkan operasional UMKM. BizFlow tidak hanya mencatat transaksi, tetapi juga menghitung laba bersih secara real-time dengan memperhitungkan HPP (Harga Pokok Penjualan) dan biaya operasional.",
+    description: "Sebuah aplikasi Point of Sale (Kasir) dan manajemen bisnis berbasis web yang dirancang untuk mendigitalkan operasional UMKM.",
     tech: ["Next.js", "Express.js", "Tailwind", "MySQL"],
     link: "#",
   },
