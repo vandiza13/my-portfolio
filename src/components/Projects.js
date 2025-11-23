@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const projectData = [
   {
-    title: "Dashboard Monitoring",
+    title: "Dashboard Monitoring Tiket",
     description: "Sistem monitoring tiket dan data visualisasi untuk memantau performa jaringan secara real-time.",
     tech: ["Next.js", "Chart.js", "Tailwind"],
     link: "https://dashboard-tiket-app.vercel.app", // Ganti dengan link asli nanti
@@ -14,9 +14,9 @@ const projectData = [
     link: "#",
   },
   {
-    title: "Fiber Optic Viewer",
-    description: "Web App untuk melihat jalur kabel fiber optik dan lokasi tower BTS berbasis data KMZ/Google Earth.",
-    tech: ["JavaScript", "Google Maps API"],
+    title: "BizFlow - Smart POS & Business Management System",
+    description: "Sebuah aplikasi Point of Sale (Kasir) dan manajemen bisnis berbasis web yang dirancang untuk mendigitalkan operasional UMKM. BizFlow tidak hanya mencatat transaksi, tetapi juga menghitung laba bersih secara real-time dengan memperhitungkan HPP (Harga Pokok Penjualan) dan biaya operasional.",
+    tech: ["Next.js", "Express.js", "Tailwind", "MySQL"],
     link: "#",
   },
 ];
