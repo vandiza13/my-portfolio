@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"; // <--- Tambahan 1: Import Footer
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Tubagus Paradisa - Full Stack Developer",
+  title: "Tubagus Paradisa - Full Stack Developer dan Cyber Security Engineer",
   description: "Portfolio resmi Tubagus Paradisa. Web Development dan Cyber Security Engineer.",
   icons: {
     icon: '/favicon.ico', // Pastikan kamu punya logo kecil (favicon) di folder public

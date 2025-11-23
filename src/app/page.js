@@ -1,4 +1,7 @@
 import Projects from "@/components/Projects"; // <--- Tambahan 1
+import About from "@/components/About";   // <--- IMPORT BARU
+import Contact from "@/components/Contact";
+
 
 export default function Home() {
   return (
@@ -35,8 +38,11 @@ export default function Home() {
         </div>
       </div>
 
-      {/* --- PROJECTS SECTION (Tambahan Baru) --- */}
-      <Projects />  {/* <--- Panggil di sini */}
+      <About />
+      
+      <Projects />
+
+       <Contact />
 
     </main>
   );
