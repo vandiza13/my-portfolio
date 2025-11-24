@@ -20,7 +20,7 @@ export default function About() {
               
               <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-gray-700 shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
                 <Image 
-                  src="/profile.jpg" 
+                  src="/profile.png" 
                   alt="Foto Profil Tubagus Paradisa" 
                   fill 
                   className="object-cover"
