@@ -14,21 +14,25 @@ export default function Home() {
         {/* Background Glow */}
         <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-
-        <div className="z-10 text-center max-w-3xl">
+        <div className="z-10 text-center max-w-4xl"> {/* Ubah max-w-3xl jadi 4xl biar muat */}
+          
           <p className="text-blue-400 font-medium tracking-widest mb-4 uppercase text-sm">
             Halo, Saya Tubagus Paradisa
           </p>
+          
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Membangun Solusi Digital <br />
+            Menciptakan Sistem Web <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-              Yang Berdampak.
+               Yang Aman & Andal.
             </span>
           </h1>
+
           <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
-            Seorang Web Developer yang fokus pada performa, desain minimalis, 
-            dan pengalaman pengguna yang interaktif.
+            Menggabungkan kreativitas <b>Web Development</b> dengan ketelitian <b>Cyber Security</b>. 
+            Membangun aplikasi yang tidak hanya cepat dan interaktif, tetapi juga tangguh melindungi data.
           </p>
+
+
           <div className="flex gap-4 justify-center">
             <Link 
               href="#projects" 
