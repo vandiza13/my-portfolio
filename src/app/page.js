@@ -28,13 +28,20 @@ export default function Home() {
             dan pengalaman pengguna yang interaktif.
           </p>
           <div className="flex gap-4 justify-center">
-            <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30">
+            <Link 
+              href="#projects" 
+              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-medium transition-all transform hover:scale-105 shadow-lg shadow-blue-500/30"
+            >
               Lihat Projek
-            </button>
-            <button className="px-8 py-3 border border-gray-600 hover:border-white text-gray-300 hover:text-white rounded-full font-medium transition-all">
+            </Link>
+            
+            <Link 
+              href="#contact" 
+              className="px-8 py-3 border border-gray-600 hover:border-white text-gray-300 hover:text-white rounded-full font-medium transition-all"
+            >
               Hubungi Saya
-            </button>
-          </div>
+            </Link>
+      </div>
         </div>
       </div>
 
