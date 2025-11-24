@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar"; // Navbar di atas
 import Footer from "@/components/Footer"; // <--- Tambahan 1: Import Footer
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} bg-gray-900 text-white antialiased`}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer /> {/* <--- Tambahan 2: Footer di paling bawah */}
       </body>
     </html>
