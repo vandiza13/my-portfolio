@@ -1,5 +1,7 @@
-import Projects from "@/components/Projects"; // <--- Tambahan 1
-import About from "@/components/About";   // <--- IMPORT BARU
+import Link from "next/link"; 
+import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 
 
