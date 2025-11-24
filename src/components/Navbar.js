@@ -86,7 +86,7 @@ export default function Navbar() {
             
             {/* Tombol GitHub di Mobile */}
             <a 
-              href="https://github.com/tubagusparadisa"
+              href="https://github.com/vandiza13"
               target="_blank"
               className="inline-block text-center px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all"
             >
