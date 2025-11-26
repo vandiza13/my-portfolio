@@ -1,22 +1,25 @@
 import Link from "next/link";
 
+import Link from "next/link";
+
+// Contoh Data (Bisa kamu ganti deskripsinya sendiri nanti)
 const projectData = [
   {
-    title: "Dashboard Monitoring Tiket",
-    description: "Sistem monitoring tiket dan data visualisasi untuk memantau performa jaringan secara real-time.",
+    title: "Dashboard Monitoring",
+    description: "Real-time ticket monitoring system and data visualization for network performance.",
     tech: ["Next.js", "Chart.js", "Tailwind"],
-    link: "https://dashboard-tiket-app.vercel.app", // Ganti dengan link asli nanti
+    link: "#", 
   },
   {
-    title: "Aplikasi Warga",
-    description: "Platform digital untuk komunitas RT/RW, memudahkan transparansi kas dan komunikasi antar warga.",
+    title: "Community App",
+    description: "Digital platform for local communities (RT/RW) to manage transparency and communication.",
     tech: ["PHP", "MySQL", "Bootstrap"],
     link: "#",
   },
   {
-    title: "BizFlow - Smart POS & Business Management System",
-    description: "Sebuah aplikasi Point of Sale (Kasir) dan manajemen bisnis berbasis web yang dirancang untuk mendigitalkan operasional UMKM.",
-    tech: ["Next.js", "Express.js", "Tailwind", "MySQL"],
+    title: "Fiber Optic Viewer",
+    description: "Web App to visualize fiber optic routes and BTS tower locations based on KMZ data.",
+    tech: ["JavaScript", "Google Maps API"],
     link: "#",
   },
 ];
@@ -26,31 +29,23 @@ export default function Projects() {
     <section id="projects" className="py-20 bg-gray-900">
       <div className="max-w-6xl mx-auto px-6">
         
-        {/* Judul Section */}
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Projek <span className="text-blue-500">Unggulan</span>
+          Featured <span className="text-blue-500">Projects</span>
         </h2>
 
-        {/* Grid Kartu */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projectData.map((project, index) => (
-            <div 
-              key={index} 
-              className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all hover:-translate-y-2 shadow-lg"
-            >
-              {/* Placeholder Gambar (Kotak warna dulu) */}
+            <div key={index} className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all hover:-translate-y-2 shadow-lg">
               <div className="h-48 bg-gradient-to-br from-gray-700 to-gray-600 flex items-center justify-center">
                 <span className="text-gray-400 text-4xl">💻</span>
               </div>
 
-              {/* Isi Kartu */}
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
                 <p className="text-gray-400 text-sm mb-4 h-20">
                   {project.description}
                 </p>
                 
-                {/* Tags Teknologi */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((t, i) => (
                     <span key={i} className="text-xs bg-blue-900/30 text-blue-300 px-2 py-1 rounded border border-blue-900">
@@ -59,12 +54,11 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {/* Tombol */}
                 <Link 
                   href={project.link}
                   className="block text-center w-full py-2 bg-white/5 hover:bg-blue-600 hover:text-white text-gray-300 rounded-lg transition-colors text-sm font-medium"
                 >
-                  Lihat Detail &rarr;
+                  View Details &rarr;
                 </Link>
               </div>
             </div>
