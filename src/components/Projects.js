@@ -16,9 +16,9 @@ const projectData = [
     link: "#",
   },
   {
-    title: "Fiber Optic Viewer",
-    description: "Web App to visualize fiber optic routes and BTS tower locations based on KMZ data.",
-    tech: ["JavaScript", "Google Maps API"],
+    title: "BizFlow - Smart POS & Business Management System",
+    description: "A web-based Point of Sale (POS) and business management application designed to digitize UMKM operations.",
+    tech: ["Next.js", "Express.js", "Chart.js", "Tailwind"],
     link: "#",
   },
 ];

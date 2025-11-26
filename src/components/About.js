@@ -50,8 +50,8 @@ export default function About() {
             {/* Statistik */}
             <div className="flex gap-8 mb-8 border-l-4 border-blue-500 pl-4">
               <div>
-                <h3 className="text-2xl font-bold text-white">2+</h3>
-                <p className="text-sm text-gray-500">Years Experience</p>
+                <h3 className="text-2xl font-bold text-white">10+</h3>
+                <p className="text-sm text-gray-500">Years Of Work Experience</p>
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">10+</h3>
