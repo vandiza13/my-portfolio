@@ -8,15 +8,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Tubagus Paradisa | Web Developer & Security Engineer",
-  description: "Portfolio resmi Tubagus Paradisa. Spesialis Fullstack Development (Next.js) dan Cyber Security (Penetration Testing & Secure Coding).",
+  description: "Official Portfolio of Tubagus Paradisa. Specializing in Secure Fullstack Development (Next.js) and Cyber Security (Penetration Testing).",
   keywords: ["Web Developer", "Cyber Security", "Next.js", "React", "Portfolio", "Tubagus Paradisa"],
   authors: [{ name: "Tubagus Paradisa" }],
   openGraph: {
     title: "Tubagus Paradisa - DevSecOps Portfolio",
-    description: "Membangun solusi digital yang aman dan berkinerja tinggi.",
+    description: "Building secure, scalable, and high-performance digital solutions.",
     url: "https://vandiza.my.id",
     siteName: "Tubagus Paradisa Portfolio",
-    locale: "id_ID",
+    locale: "en_US", // Ubah jadi English
     type: "website",
   },
 };

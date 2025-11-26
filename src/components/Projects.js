@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import Link from "next/link";
 
 // Contoh Data (Bisa kamu ganti deskripsinya sendiri nanti)
 const projectData = [
