@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h3 className="text-lg font-bold text-white">Portfolio.</h3>
           <p className="text-gray-500 text-sm mt-2">
-            © 2025 Built with Next.js & Tailwind CSS.
+            © 2026 Built with Next.js & Tailwind CSS.
           </p>
         </div>
         {/* Kanan: Sosial Media */}
